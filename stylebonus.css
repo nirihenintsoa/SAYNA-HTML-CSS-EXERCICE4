@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "toile";
+    src: url(Assets/fonts/Far-From.otf);
+}
+nav{
+    background-color: #B11313;
+    padding: 2%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    margin-left: 10%;
+
+}
+
+.right{
+    margin-right:10% ;
+}
+.photo{
+    background-image: url(./Assets/Illustration/img35.png) ;
+    
+    background-position: center;
+    color: #fff;
+    padding: 10%;
+    margin: 0%;
+
+    
+}
+.hero{
+    font-family: "toile";
+    margin-top: 3em;
+    margin-right: 45%;
+}
+footer{
+    background-color: #0000;
+}
+.flex-container{
+    
+    display: flex;
+   
+    background-color: black;
+    
+   
+    
+}
+ footer ul{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    list-style: none;
+   font-size: x-small;
+
+}
+
+footer li{
+    text-decoration: none;
+    
+} 
+.langue{
+    background-color: #B11313;
+    padding: auto;
+width:20%;
+height:30px;
+border-bottom: 10px;
+border: none;
+text-align: initial;
+font-size: small;
+}
+.choix{
+    background-color: #B11313;  
+    width:2%;
+    height:30px;
+    border:none;
+}
+.blanc{
+    background-color: #B11313;
+    
+  border-radius: 50%;
+  border: none;
+}
+.pieds{
+    display: flex;
+    background-color: black;
+    
+ 
+}
+.figuren{
+    margin-left: 45%; 
+}
+.fin{
+    background-color: black;
+    text-align: center;
+}
+.mobiley{
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    .mobile{
+      display: none;
+    }
+    .pieds{
+        display: block;
+    }
+    .whire{
+    
+        display:block;
+        }
+  .mobiley{
+      display: list-item;
+    
+      background-color: black; 
+      background-position: cover;
+      
+   }
+      
+      
+      li{
+          list-style-type: none;
+          font-size: x-small;
+        }
+        
+    footer{
+    display: none;
+        }
+    
+    .language{
+      
+    border-radius: 40px;
+    
+} 
+.fini{
+    margin-left: 20%;
+}
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="./homestyle.css">
+</head>
+<body>
+    <!-- barre de naviguation -->
+    <nav>
+        <ul class="nav nav-pills  ">
+            <li class="active"  >
+             <li > <img src="./Assets/Logo/logo1.png" alt="" width="40%"></li>
+             <li ><img  class="me-4 "  src="./Assets/Logo/logo2.png" alt=""  ></li>
+             <li > <img  class="me-4" src="./Assets/Logo/logo3.png" alt="" width="50%"></li>
+            </li>
+            
+             
+             <li class="right">
+             
+             
+             <li><a class="text-decoration-none text-white me-4 fw-bolder fs-6 mobile" href=".//home.html">Accueil</a></li>
+             <li><a  class="text-decoration-none text-white me-4 fw-bolder fs-6 mobile" href=".//adversaire.html">Adversaires</a></li>
+             <li><a class="text-decoration-none text-white me-4 fw-bolder fs-6 mobile" href=".//heros.html">Héros</a></li>
+             <li> <a class="text-decoration-none text-white me-4 fw-bolder fs-6 mobile" href=".//propos.html">A propos</a></li>
+            <li> <p class="d-sm-none text-white navmob">...</p></li>
+            </ul>
+             </li>
+              </nav>
+               <!-- partie corps du devoir ;où on va inserer des boutons -->
+        <div class="pic">
+            <div class="spiderman  text-white display-1 py-5" >SPIDERMAN </div> 
+            <div class="d-flex py-2 ">
+                
+                <button type="button" class="btn btn-sm  me-5 white text-center">Voir les heros </button>
+                <button type="button" class="btn btn-sm  rouille text-center"> Voir les adversaires </button>
+            
+            </div>
+            <h5 class="droite"> L'araignée sympa du quartier!</h5> 
+                 
+           
+            
+                
+        </div>
+         <!--on entre ici dans la partie biographie des personnages ou il y a des figcaptions -->
+
+        <div class="personnage ">
+            <div class=" text-white  biographie   "> LES SPIDERMANS AU CINEMA </div>
+            <h6 class="text-white p-3 War "> Spiderman a pu beneficier de reboot qui on permis d'adapter ses histoires <br>
+                pour chaque génération!</h6>
+                <div class=" peter ">
+                    <figure>
+                       <img class="me-4 p-3"src="./Assets/Illustration/img3.png" alt="">
+                        <figcaption >Trois films Spiderman sont sortis en 2002, 2004 et 2007. Ils sont produits par Colu,bia Pictures et Spiderman est incarné par Tobey Maguire. Un quatrième était prévu mais sera finalement annulé suite à des désaccords entre Sam Raimi (le réalisateur) et Sony.
+                            <br>Cette prémière trilogie a connu un grand succès auprès des fans et du grand public.L'épisode 3 reste à ce jour un des films les plus chers de l'histoire du cinéma.
+                        </figcaption> <br>
+                        <button type="button" class="btn btn-sm  me-5 white text-center adversaires">Voir ses adversaires </button> 
+                    </figure>
+                    <figure><img class="me-4 p-3" src="./Assets/Illustration/img2.png" alt=""> 
+                    <figcaption>The Amazing Spiderman est sorti en 2012, c'est Andrew Garfield aui incarne le héro et Marc Webb à la réalisation. Un deuxième volet, The Amazing Spider-Man : Le destin d'un héros, est sorti en 2014 et a reçu des critiques très mitigées. Un troisième et quatrième film était prévus pour 2016 et 2018. Finalement, Marvel et Sony trouvent un accord pour introduire Spiderman dans l'Univers cinématolographique Marvel et abandonne ainsi The Amazing Spider-Man.</figcaption><button type="button" class="btn btn-sm  me-5 white text-center adversaires">Voir ses adversaires </button></figure>
+                    <figure>
+                        <img class="p-3" src="./Assets/Illustration/img4.png" alt="">
+                        <figcaption>Spiderman, désormais incarné par Tom Holland, apparaît pour la première fois dans l'Univers Marvel avec Capitain America : Civil War, sorti en 2016. Par la suite, une trillage de films lui est consacrée:
+                            [01:13]
+                            Spiderman : Homeco,ing[2017]
+                            [01:13]
+                            Spiderman : Far From Home [2019]
+                            [01:14]
+                            Spiderman : No Way Home [2021]
+                            [01:14]
+                            Le héros est également présent dans Avengers Infinity War et Avengers End Game, combattant au côté des Avengers.</figcaption>
+                           <button type="button" class="btn btn-sm  me-5 white text-center adversaires">Voir ses adversaires </button></figure>
+                    
+         </div>
+                </div>
+                 <!--insertion des differentes input-->
+                <div class=" row ocean p-5">
+                    <div class="col-xl-6">
+                        <img src="./Assets/Illustration/img5.png" alt="">
+                    </div>
+                    <div class="col-xl-6"> 
+                      <h1 class="text-white  biographie ">DEVIENS SPIDERMAN</h1> 
+                    <h6 class="text-white"> Rempli le formulaire ci-dessous afin de recevoir to propre costume</h2><form>
+                        <input class="form-control me-2 imput  " type="nom"  placeholder ="Nom" ><br>
+                        <input class="form-control me-2 imput " type="nom" placeholder ="Prénom" ><br>
+                        <input class="form-control me-2 imput " type="nom" placeholder ="Taille" ><br>
+                        <input class="form-control me-2 imput " type="nom" placeholder ="Poids " ><br>
+                        <input class="form-control me-2 imput " type="nom" placeholder ="Adresse email" ><br>
+                        <br>
+                        <br>
+                        
+                    </form> 
+                    <button type="button" class="btn btn-sm send text-white ">Envoyer</button>
+                </div>
+                        
+                </div>
+                <div class="personnage row p-5">
+                    <div class="col-xl-6">
+                        <div class="text-white biographie"> INSCRIT TOI A NEWSLETTER</div>
+                        <h6 class=" text-white"> L'univers de l'araignée justicière te passionne ? Reste au courant des dernières actualités grace à notre newsletter !</h6>
+                        <input class="form-control me-2 input " type="nom" placeholder ="Nom et prenom" ><br>
+                        <input class="form-control me-2 input " type="nom" placeholder ="Adresse email " ><br>
+                        <p class="text-white"> 
+                            <input type="checkbox" name="citizenship" class="text-white"/> je reconnais accepter <span style="text-decoration: underline;">la politique de confidentialité</span> la politique de confidentialité de Sayna X Marvel
+                        </p>
+                        <button type="button" class="btn btn-sm  me-5 white text-center adversaires">Voir ses adversaires </button>
+                    </div>
+                    <div class="col-xl-6">
+                        <img src="./Assets/Illustration/img6.png" alt="" width="200% " height="80%" class="  clic">
+                    
+                    </div>
+                    
+                    
+
+                </div>
+                <!-- fin du corps et entree dans la partie bas de page -->
+
+<footer>
+    
+    
+    
+    <div class="flex-container py-5 ">
+        <ul>
+            <li class=" text-white me-5 ">Mobile app</li>
+            <li class="  text-white me-5">Politique de confidentialité</li>
+            <li class="  text-white me-5"> cookies </li>
+            <li><img src="./Assets/Logo/logo1.png" alt=""height="40%"></li>
+            <li><img src="./Assets/Logo/logo2.png" alt="" height="30%"></li>
+            <li><img class=" me-5"src="./Assets/Logo/logo3.png" alt="" height="30%"></li>
+            <li class=" text-white me-5"> contact </li>
+            <li class="  text-white me-5"> Blog </li>
+            <button type="button" class="btn langue text-white" >Langue</button>
+            <li><button type="button" class="btn dropdown-toggle dropdown-toggle-split  choix" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></li>      
+        </ul>
+          
+    </div>
+        <div class=" d-flex pieds ">
+            <figure class="figuren">
+                <img  class="blanc me-2 " src="./Assets/Logo/logof.png"  alt="">
+                <img class="blanc me-2"   src="./Assets/Logo/logoi.png" alt="">
+                <img class="blanc me-2"src="./Assets/Logo/logoy.png" alt="">
+                <img class="blanc me-2" src="./Assets/Logo/logot.png" alt="">
+            </figure>
+        </div>
+        <div class="fin">
+
+            <span class="text-muted">© SaynaXMarvel, Inc.2022 we love our users!</span> <br>
+            <audio controls autoplay>
+                <source class="text-center"src="./Assets/audio1.mp3" >
+                
+            </audio >
+            
+            
+          </div>
+
+</footer>
+ <!-- c'est la partie footer de la version mobile-->
+<div class="mobiley text-white"> 
+                <div class="row">
+                    <div class="col"><ul> 
+                        <li>Mobile app</li> 
+                        <li>Politique de confidentialité</li> 
+                        <li>cookies</li> 
+                        <li>contact</li> 
+                        <li>Blog</li> </div>
+                        <div class=" col language"><button type="button" class="btn btn-outline-secondary langue text-white" >Langue</button>
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split  choix" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></div>
+                    </ul>
+
+                    </div>
+                    <div class="text-center">
+                        <img src="./Assets/Logo/logo1.png" alt=""height="40%">
+                        <img src="./Assets/Logo/logo2.png" alt="" height="30%">
+                        <img class=" me-5"src="./Assets/Logo/logo3.png" alt="" height="30%">
+                    </div>
+                    <div class="text-center"><img  class="blanc me-2 " src="./Assets/Logo/logof.png"  alt="">
+                        <img class="blanc me-2"   src="./Assets/Logo/logoi.png" alt="">
+                        <img class="blanc me-2"src="./Assets/Logo/logoy.png" alt="">
+                        <img class="blanc me-2" src="./Assets/Logo/logot.png" alt=""></div>
+                        <span class="text-muted text-center fini">© SaynaXMarvel, Inc.2022 we love our users!</span>
+                    
+            </div>
+                
+            </div>
+
+
+    
+</body>
+</html>

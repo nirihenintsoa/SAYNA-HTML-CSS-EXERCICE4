@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "toile";
+    src: url(Assets/fonts/Far-From.otf);
+}
+
+nav{
+    background-color: #B11313;
+    padding: 2%;
+}
+.active{
+    margin-left: 10%;
+
+}
+
+.right{
+    margin-right:10% ;
+}
+.pic{
+    background-image: url(./Assets/Illustration/img1.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 10% 0 10% 0;
+    margin: 0%;
+     }
+    
+.spiderman{
+    font-family: "toile";
+}
+.white{
+color: #B11313;
+background-color: white;
+border-radius: 20px;
+margin-right: 50%;
+
+margin-top: 2%;
+font-size: x-small;
+width: 14%;
+}
+.rouille
+{
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 2%;
+    font-size: x-small;
+    width: 14%;
+    
+}
+.personnage{
+    background-color: #B11313;
+    
+}
+.biographie{
+    font-family:"toile";
+    font-size: 25px;
+    margin-left: 10%;
+    
+}
+.War{
+    margin-left: 10%;
+    font-size: small;
+
+}
+.peter{
+    display: flex;
+    margin-left: 7%;
+   
+}
+    
+figcaption{
+    color: #fff;
+    text-align: justify;
+    justify-content: center;
+    padding-right: 10%;
+    
+    
+}
+  figure{
+padding-right: 2%;
+justify-content: right;
+ display: inline-block;
+text-align: center;margin: 5px; 
+      }
+  
+ .adversaires{
+        color: #B11313;
+        background-color: white;
+        border-radius: 20px;
+        font-weight: bolder;
+        margin-top: 15%;
+        font-size: small;
+        width: 40%;
+        margin: 10%;
+        margin-left: 10%;
+      }
+      .ocean{
+          background-color: #114C92;
+      }
+      .imput{
+          width: 60%;
+          border-radius: 20px;
+          margin-left: 20%;
+      }
+      .send{
+        color: aliceblue;
+        margin-left: 35%;
+        border: 2px solid white;
+        border-radius: 20px;
+        padding: 3%;
+        width: 100px;
+        
+    }
+    .clic{
+        padding-right: 50%;
+    }
+    .input{
+        background-color: #B11313;
+        border-radius: 20px;
+        width: 50%;
+    }
+    footer{
+        background-color: #0000;
+    }
+    .flex-container{
+        
+        display: flex;
+       flex-wrap: wrap;
+        background-color: black;
+        
+       
+        
+    }
+    footer ul{
+        display: flex;
+        text-decoration: none!important;
+        margin-left: 10%;
+        margin-right: 10%;
+        list-style: none;
+     font-size: x-small;
+    
+    }
+    
+    footer li{
+        text-decoration: none;
+    } 
+    .langue{
+        background-color: #B11313;
+        padding: auto;
+    width:20%;
+    height:30px;
+    border-bottom: 10px;
+    border: none;
+    text-align: initial;
+    font-size: small;
+    }
+    .choix{
+        background-color: #B11313;  
+        width:2%;
+        height:30px;
+        border:none;
+    }
+    .blanc{
+        background-color: #B11313;
+        
+      border-radius: 50%;
+      border: none;
+    }
+    .pieds{
+        background-color: black;
+        
+     
+    }
+    .figuren{
+        margin-left: 45%; 
+    }
+    .fin{
+        background-color: black;
+        text-align: center;
+        
+    }
+    .mobiley{
+        display: none;
+    }
+    @media screen and (max-width: 720px) {
+        .mobile{
+          display: none;
+        }
+        .pic{
+            
+            padding-right:  100px;
+            
+        
+
+            
+        }
+        .navmob{
+            
+            text-align: right;
+            
+    
+        }
+       .peter{
+        display:  block;
+       }
+       .mobiley{
+        display: list-item;
+      
+        background-color: black; 
+        background-position: cover;
+        
+     }
+        
+        
+        li{
+            list-style-type: none;
+            font-size: x-small;
+          }
+          
+      footer{
+      display: none;
+          }
+      
+      .language{
+        
+      border-radius: 40px;
+      
+  } 
+  .fini{
+      margin-left: 20%;
+  }
+      }

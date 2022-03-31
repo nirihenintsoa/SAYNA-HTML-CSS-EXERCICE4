@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "toile";
+    src: url(Assets/fonts/Far-From.otf);
+}
+nav{
+    background-color: #F1C530;
+    padding: 2%;
+}
+.active{
+    margin-left: 10%;
+
+}
+
+.right{
+    margin-right:10% ;
+}
+.first{
+    background-image: url(./Assets/Illustration/img7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding:        20%;
+}
+.spiderman{
+    font-family: "toile";
+}
+.yelow{
+    background-color:#F1C530 ;
+    
+    padding: 5%;
+}
+.carte{
+    display: flex;
+}
+.card{
+    background-color:#F1C530 ;
+    margin-right: 5%;
+    margin-bottom:2% ;
+}
+.card-body{
+    border-radius: 0px 0px 30px 30px;
+    
+    border-left: 7px solid black;
+    border-right:7px solid black; 
+    border-bottom: 7px solid black;
+    
+}
+.finish{
+    margin-left: 20%;
+    
+}
+strong{
+    color: black;
+    font-size: large;
+
+
+}
+.card-text{
+    color: black;
+}
+
+footer{
+    background-color: #0000;
+}
+.flex-container{
+    
+    display: flex;
+   
+    background-color: black;
+    
+   
+    
+}
+ footer ul{
+    display: flex;
+    text-decoration: none!important;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+ font-size: x-small;
+
+}
+
+footer li{
+    text-decoration: none;
+} 
+.langue{
+    background-color: #F1C530;
+    padding: auto;
+width:20%;
+height:30px;
+border-bottom: 10px;
+border: none;
+text-align: initial;
+font-size: small;
+}
+.choix{
+    background-color:#F1C530 ;  
+    width:2%;
+    height:30px;
+    border:none;
+}
+.blanc{
+    background-color: #F1C530;
+    
+  border-radius: 50%;
+  border: none;
+}
+.pieds{
+    background-color: black;
+    
+ 
+}
+.figuren{
+    margin-left: 45%; 
+}
+.fin{
+    background-color: black;
+    text-align: center;
+    
+}
+.mobiley{
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .mobile{
+        display: none;
+      }
+    .carte{
+        display: block;
+        
+    }
+    .card{
+        margin-top: 20%;
+    }
+    .finish{
+        margin-left: 0%;
+    }
+    .navmob{
+        text-align: right;
+             }
+             .mobiley{
+                display: list-item;
+              
+                background-color: black; 
+                background-position: cover;
+                
+             }
+                
+                
+                li{
+                    list-style-type: none;
+                    font-size: x-small;
+                  }
+                  
+              footer{
+              display: none;
+                  }
+              
+              .language{
+                
+              border-radius: 40px;
+              
+          } 
+          .fini{
+              margin-left: 20%;
+          }    
+}

@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "toile";
+    src: url(Assets/fonts/Far-From.otf);
+}
+nav{
+    background-color: #B11313;
+    padding: 2%;
+}
+.active{
+    margin-left: 10%;
+
+}
+
+.right{
+    margin-right:10% ;
+}
+.latoile{
+    background-color: #F1C530;
+
+}
+.pivot{transform: scaleX(-1);
+   
+}
+.spider{
+    font-family: "toile" ;
+}
+.hider{
+    padding: 10%;
+    align-items: flex-end;
+}
+.antenne{
+    background-color: #B11313;
+}
+.input{
+    background-color: #B11313;
+    border-radius: 20px;
+    border: 2px solid white;
+    
+}
+.input::placeholder { 
+    color: aliceblue;
+}
+.send{
+    color: aliceblue;
+    margin-left: 35%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5%;
+    
+}
+
+
+
+.blue{
+    background-color: #114C92;
+    
+}
+.bird{
+    margin-left: 2%;
+    text-align: justify;
+}
+.ovni{
+    text-align: justify;
+}
+.hird{
+    margin-right: 0%;
+}
+    
+.bouton{
+    color: aliceblue;
+    border-radius: 20px;
+    border: 2px solid white;  
+    margin: 5%;
+    padding: 2%;
+
+}
+.group{
+margin-right: 15%;
+margin-left:15% ;
+padding: 5%;
+}
+    
+footer{
+    background-color: #0000;
+}
+.flex-container{
+    
+    display: flex;
+   
+    background-color: black;
+    
+   
+    
+}
+footer ul{
+    display: flex;
+    text-decoration: none!important;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+ font-size: x-small;
+
+}
+
+footer li{
+    text-decoration: none;
+} 
+.langue{
+    background-color: #B11313;
+    padding: auto;
+width:20%;
+height:30px;
+border-bottom: 10px;
+border: none;
+text-align: initial;
+font-size: small;
+}
+.choix{
+    background-color: #B11313;  
+    width:2%;
+    height:30px;
+    border:none;
+}
+.blanc{
+    background-color: #B11313;
+    
+  border-radius: 50%;
+  border: none;
+}
+.pieds{
+    background-color: black;
+    
+ 
+}
+.figuren{
+    margin-left: 45%; 
+}
+.groupi{
+    display: flex;
+}
+.fin{
+    background-color: black;
+    text-align: center;
+    
+}
+.navmob{
+    display: none;
+}
+.mobiley{
+    display: none;
+}
+.ace{
+    display: none;
+}
+@media screen and (max-width: 720px){
+    .navmob{
+        color: white;
+        text-align: right;
+    }
+    .mobile{
+        display: none;
+    }
+    .mobiley{
+        display: list-item;
+      
+        background-color: black; 
+        background-position: cover;
+        
+     }
+        
+        
+        li{
+            list-style-type: none;
+            font-size: x-small;
+          }
+          
+      footer{
+      display: none;
+          }
+      
+      .language{
+        
+      border-radius: 40px;
+      
+  } 
+  .fini{
+      margin-left: 20%;
+  }
+  .groupi{
+      display: none;
+  }
+  
+  
+}

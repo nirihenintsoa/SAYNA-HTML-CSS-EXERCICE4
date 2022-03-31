@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: "toile";
+    src: url(Assets/fonts/Far-From.otf);
+}
+nav{
+    background-color: #114c92;
+    padding: 2%;
+}
+.active{
+    margin-left: 10%;
+
+}
+
+.right{
+    margin-right:10% ;
+}
+.spide{
+    background-image: url(./Assets/Illustration/img19.png);
+background-position: center;
+color: #fff;
+padding: 10%;
+margin: 0%;   
+height: 80%;
+background-repeat: no-repeat;
+background-size: cover;
+height: 60vh;
+}
+.spiderman{
+
+font-family: "toile";}
+.blue{
+    background-color: #114c92;
+    text-align: justify;
+}
+.roblox{
+    background-image: url(./Assets/Illustration/img20.png);
+    background-position: center;
+color: #fff;
+padding: 10%;
+margin: 0%;   
+height: 80%;
+background-repeat: no-repeat;
+background-size: cover;
+height: 80vh;
+}
+.image{
+    z-index: 1;
+    position: absolute;
+}
+.image1{
+    position: relative;
+    z-index: 2;
+    margin-left: 10%;
+    padding: 20%;
+}
+.gwen{
+    margin-left: 25%;
+}
+.Fcontainer{
+    background-color: #B11313;
+
+}
+.position{
+    background-image: url(./Assets/Illustration/img33.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 50%;
+    padding-right: 10%;
+    text-align: justify;
+    
+}
+.transversal{
+    background-color: #0070fa4d;
+}
+.footer{
+    background-color: #0000;
+}
+.flex-container{
+    
+    display: flex;
+   
+    background-color: black;
+    
+   
+    
+}
+ footer ul{
+    display: flex;
+    text-decoration: none!important;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+ font-size: x-small;
+
+}
+.with{
+    text-align: justify;
+}
+
+ footer li{
+    text-decoration: none;
+} 
+.avengers{
+    font-size: x-small;
+}
+.langue{
+    background-color: #114c92;
+    padding: auto;
+width:20%;
+height:30px;
+border-bottom: 10px;
+border: none;
+text-align: initial;
+font-size: small;
+}
+.choix{
+    background-color: #114c92;  
+    width:2%;
+    height:30px;
+    border:none;
+}
+.blanc{
+    background-color:#114c92;
+    
+  border-radius: 50%;
+  border: none;
+}
+.pieds{
+    background-color: black;
+    
+ 
+}
+.figuren{
+    margin-left: 45%; 
+}
+.fin{
+    background-color: black;
+    text-align: center;
+    
+}
+.mobiley{
+    display: none;
+}
+
+@media screen and (max-width: 720px){
+    .mobile{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    .mobiley{
+        display: list-item;
+      
+        background-color: black; 
+        background-position: cover;
+        
+     }
+        
+        
+        li{
+            list-style-type: none;
+            font-size: x-small;
+          }
+          
+      footer{
+      display: none;
+          }
+      
+      .language{
+        
+      border-radius: 40px;
+      
+  } 
+  .fini{
+      margin-left: 20%;
+  }
+  .photo{
+    
+    width: 20px;
+  }
+}
